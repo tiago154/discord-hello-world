@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 
 const bot = new Discord.Client()
 
-bot.login(process.env.BOT_TOKEN || 'NjkwMjE5Njc4NTU5NTAyMzUy.XnOuKg.WNdYoEtRj_kT8WwehFjvWo8DbWQ')
+bot.login(process.env.BOT_TOKEN)
 
 bot.once('ready', () => {
     console.log(`Bot Online: ${bot.user.tag}`)
